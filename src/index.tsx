@@ -3,6 +3,9 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import './components/styles/reset.scss';
+import './components/styles/flexboxgrid.scss';
+import './components/styles/base.scss';
 
 ReactDOM.render(
   <React.StrictMode>
