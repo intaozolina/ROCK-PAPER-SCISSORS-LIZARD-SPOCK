@@ -24,10 +24,9 @@ export const counterSlice = createSlice({
     reset: (state, action) => {
       state.count = action.payload;
     },
+
   },
 });
-
-// Action creators are generated for each case reducer function
 export const {
   increment, decrement, incrementByAmount, multiply, divide, reset,
 } = counterSlice.actions;
