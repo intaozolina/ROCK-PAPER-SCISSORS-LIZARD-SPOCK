@@ -1,11 +1,13 @@
 import { configureStore } from '@reduxjs/toolkit';
 import counterSlice from './components/Counter/counterSlice';
 import toDoSlice from './components/ToDoList/toDoSlice';
+import pokemonApi from './components/Slices/pokemonSlice';
 
 export const store = configureStore({
   reducer: {
     counter: counterSlice,
     todos: toDoSlice,
+    [pokemonApi.reducerPath]: pokemonApi.reducer,
   },
 });
 
