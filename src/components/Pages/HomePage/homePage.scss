@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+.homepage__hero {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 70px;
+}
+
+.homepage__heading {
+  font-size: 30px;
+}
+
+.homepage__logo {
+  max-width: 60%;
+}
+
+.homepage__paragraph {
+  text-align: start;
+  font-family: 'Pacifico', cursive;
+  font-size: 20px;
+}

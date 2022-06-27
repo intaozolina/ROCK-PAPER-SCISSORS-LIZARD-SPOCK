@@ -11,6 +11,10 @@
   font-weight: bold;
 }
 
+.score__count {
+  padding-left: 20px;
+}
+
 .option__card {
   background-color: transparent;
   padding: 10px;
@@ -32,14 +36,17 @@
 
 .game__heading {
   text-align: center;
-  font-size: 28px;
-  font-weight: bold;
+  font-size: 30px;
+  padding-bottom: 30px;
 }
+
 .game__options {
   display: flex;
   flex-direction: row;
   gap: 20px;
   padding: 50px 0;
+  justify-content: center;
+  align-items: center;
 }
 
 .option__icon {
@@ -49,14 +56,65 @@
 .game__box {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
+  gap: 20px;
 }
 .player__box {
-  max-width: 45%;
-  min-height: 200px;
-  border: 1px solid grey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 300px;
+  min-height: 250px;
+  border: 3px solid #050972;
+  background-color: transparent;
+  border-radius: 20px;
+}
+
+.button__box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
 }
 
 .player__icon {
+  width: 280px;
   height: 200px;
+}
+
+.player__image {
+  width: 200px;
+  height: 200px;
+  background-color: transparent;
+}
+
+.selection__box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.battle__btn {
+  padding: 10px 15px;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: whitesmoke;
+  background-color: #8c1ca2;
+  border: 2px solid #8c1ca2;
+  cursor: pointer;
+&:hover {
+  opacity: 0.8;
+  background-color: #642598;
+  border: 2px solid #8c1ca2;
+}
+  &:disabled {
+    cursor: none;
+    background-color: #adadeb;
+    border: none;
+    opacity: 1;
+  }
 }
