@@ -1,15 +1,15 @@
 .header {
-  background-image: url("https://vb.com/logo/logo-pokemon.jpg");
+  display: flex;
   width: 100%;
   min-height: 100px;
-  text-align: center;
-  padding: 50px 150px;
-  background-size: contain;
-  background-repeat: no-repeat;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px 150px;
+  border-bottom: 2px solid #acacb6;
 }
 .header__navigation {
   font-size: 30px;
-  letter-spacing: 5px;
+  letter-spacing: 3px;
   text-decoration: none;
   color: midnightblue;
   }

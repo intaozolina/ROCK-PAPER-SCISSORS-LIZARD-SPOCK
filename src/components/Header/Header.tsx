@@ -3,9 +3,10 @@ import { NavLink } from 'react-router-dom';
 import './header.scss';
 
 const Header = () => (
-  <div className="header">
-    <nav>
-      <NavLink className="header__navigation" to="/pokemon">Pokemon Page</NavLink>
+  <div>
+    <nav className="header">
+      <NavLink className="header__navigation" to="/">Home Page</NavLink>
+      <NavLink className="header__navigation" to="/game">Play a Game</NavLink>
     </nav>
   </div>
 );

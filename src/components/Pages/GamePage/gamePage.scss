@@ -1,0 +1,62 @@
+.hero {
+  height: 100vh;
+  padding: 50px 100px;
+}
+
+.game__score {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.option__card {
+  background-color: transparent;
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+  color: whitesmoke;
+  font-size: 18px;
+  cursor: grab;
+  &:hover {
+    background-color: #b373d5;
+    border: 1px dotted #8c1ca2;
+    box-shadow: 11px 15px 16px 0 rgba(62,8,66,0.7);
+  }
+  &:active {
+    border: 2px solid #39085d;
+    background: #8c1ca2;
+  }
+}
+
+.game__heading {
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+}
+.game__options {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding: 50px 0;
+}
+
+.option__icon {
+  height: 100px;
+}
+
+.game__box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.player__box {
+  max-width: 45%;
+  min-height: 200px;
+  border: 1px solid grey;
+}
+
+.player__icon {
+  height: 200px;
+}

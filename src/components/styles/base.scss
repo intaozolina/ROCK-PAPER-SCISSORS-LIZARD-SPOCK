@@ -1,11 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Molle&display=swap');
+
 * {
   box-sizing: border-box;
 }
 
 body {
-  font-family:  'Roboto', sans-serif;
+  font-family: 'Molle', cursive;
   font-size: 16px;
   line-height: 1.4;
-  color: darkslategrey;
+  color: white;
+  background: linear-gradient(298deg, #c941c6, #adadeb, #3232b4);
+  background-size: 400% 400%;
+  animation: gradient 10s ease infinite;
+}
+
+@keyframes gradient {
+  0%{background-position:0 23%}
+  50%{background-position:100% 78%}
+  100%{background-position:0 23%}
 }
